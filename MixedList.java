@@ -348,4 +348,9 @@ public class MixedList
 
         return present;
     }
+	
+	public int getSize()
+    {
+        return this.mixedList.size();
+    }
 }
