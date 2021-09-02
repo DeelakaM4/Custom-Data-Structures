@@ -121,7 +121,7 @@ public class MixedArray
         }
         else
         {
-            System.out.println("Java MixedArray Class Object - Array index is not valid ( index:" + index + " > length:" + this.mixedArray.length + ")");
+            System.out.println("Java MixedArray Class Object - Array index <"+ index +"> is not valid");
             System.exit(1);
         }
     }
@@ -137,7 +137,7 @@ public class MixedArray
         }
         else
         {
-            System.out.println("Java MixedArray Class Object - Array index is not valid ( index:" + index + " > length:" + this.mixedArray.length + ")");
+            System.out.println("Java MixedArray Class Object - Array index <"+ index +"> is not valid");
             System.exit(1);
         }
     }
@@ -153,7 +153,7 @@ public class MixedArray
         }
         else
         {
-            System.out.println("Java MixedArray Class Object - Array index is not valid ( index:" + index + " > length:" + this.mixedArray.length + ")");
+            System.out.println("Java MixedArray Class Object - Array index <"+ index +"> is not valid");
             System.exit(1);
         }
     }
@@ -169,7 +169,7 @@ public class MixedArray
         }
         else
         {
-            System.out.println("Java MixedArray Class Object - Array index is not valid ( index:" + index + " > length:" + this.mixedArray.length + ")");
+            System.out.println("Java MixedArray Class Object - Array index <"+ index +"> is not valid");
             System.exit(1);
         }
     }
@@ -207,7 +207,7 @@ public class MixedArray
         else
         {
             value = 0;
-            System.out.println("Java MixedArray Class Object - Array index is not valid ( index:" + index + " > length:" + this.mixedArray.length + ")");
+            System.out.println("Java MixedArray Class Object - Array index <"+ index +"> is not valid");
             System.exit(1);
         }
 
@@ -247,7 +247,7 @@ public class MixedArray
         else
         {
             value = 0;
-            System.out.println("Java MixedArray Class Object - Array index is not valid ( index:" + index + " > length:" + this.mixedArray.length + ")");
+            System.out.println("Java MixedArray Class Object - Array index <"+ index +"> is not valid");
             System.exit(1);
         }
 
@@ -287,7 +287,7 @@ public class MixedArray
         else
         {
             value = ' ';
-            System.out.println("Java MixedArray Class Object - Array index is not valid ( index:" + index + " > length:" + this.mixedArray.length + ")");
+            System.out.println("Java MixedArray Class Object - Array index <"+ index +"> is not valid");
             System.exit(1);
         }
 
@@ -327,7 +327,7 @@ public class MixedArray
         else
         {
             value = "";
-            System.out.println("Java MixedArray Class Object - Array index is not valid ( index:" + index + " > length:" + this.mixedArray.length + ")");
+            System.out.println("Java MixedArray Class Object - Array index <"+ index +"> is not valid");
             System.exit(1);
         }
 
