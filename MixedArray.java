@@ -200,7 +200,7 @@ public class MixedArray
             else
             {
                 value = 0;
-                System.out.println("Java MixedArray Class Object - The index" + index + " points to a null value");
+                System.out.println("Java MixedArray Class Object - The index <" + index + "> points to a null value");
                 System.exit(1);
             }
         }
@@ -240,7 +240,7 @@ public class MixedArray
             else
             {
                 value = 0;
-                System.out.println("Java MixedArray Class Object - The index" + index + " points to a null value");
+                System.out.println("Java MixedArray Class Object - The index <" + index + "> points to a null value");
                 System.exit(1);
             }
         }
@@ -280,7 +280,7 @@ public class MixedArray
             else
             {
                 value = ' ';
-                System.out.println("Java MixedArray Class Object - The index" + index + " points to a null value");
+                System.out.println("Java MixedArray Class Object - The index <" + index + "> points to a null value");
                 System.exit(1);
             }
         }
@@ -320,7 +320,7 @@ public class MixedArray
             else
             {
                 value = "";
-                System.out.println("Java MixedArray Class Object - The index" + index + " points to a null value");
+                System.out.println("Java MixedArray Class Object - The index <" + index + "> points to a null value");
                 System.exit(1);
             }
         }
