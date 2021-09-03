@@ -353,4 +353,10 @@ public class MixedList
     {
         return this.mixedList.size();
     }
+	
+	public String getType(int index)
+	{
+		AnyType anyTypeValue = this.mixedList.get(index);
+        return anyTypeValue.getType();
+	}
 }

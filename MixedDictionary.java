@@ -390,8 +390,23 @@ public class MixedDictionary extends Dictionary
 
     public String valueTypeOf(String key)
     {
-        int index = this.keyList.indexOf(key);
-        AnyType anyTypeValue = this.valueList.get(index);
-        return anyTypeValue.getType();
+		int index;
+		AnyType anyTypeValue;
+		String type;
+		
+        if (this.keyList.contains(key))
+		{
+			index = this.keyList.indexOf(key);
+			anyTypeValue = this.valueList.get(index);
+			type = anyTypeValue.getType();
+		}
+		else
+		{
+			type = "None"
+			System.out.println("Java Dictionary Class Object - Dictionary key '" + key + "' is non existent");
+            System.exit(1);
+		}
+		
+		return type;
     }
 }

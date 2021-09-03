@@ -338,4 +338,24 @@ public class MixedArray
     {
         return this.mixedArray.length;
     }
+	
+	public String getType(int index)
+	{
+		AnyType anyTypeValue;
+		String type;
+		
+		if (index < this.mixedArray.length)
+		{
+			anyTypeValue = this.mixedArray[index];
+			type = anyTypeValue.getType();
+		}
+		else
+		{
+			type = "None";
+			System.out.println("Java MixedArray Class Object - Array index <"+ index +"> is not valid");
+            System.exit(1);
+		}
+		
+		return type;
+	}
 }
